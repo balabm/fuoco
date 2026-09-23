@@ -1,0 +1,587 @@
+{
+  "categories": [
+    {
+      "name": "Starters",
+      "description": "Antipasti",
+      "items": [
+        {
+          "name": "Bruschetta",
+          "price": "200",
+          "description": "",
+          "veg": true
+        },
+        {
+          "name": "Ricoto Bruschetta",
+          "price": "250",
+          "description": "",
+          "veg": true
+        },
+        {
+          "name": "Garlic Bread",
+          "price": "190",
+          "description": "",
+          "veg": true
+        },
+        {
+          "name": "French Fries",
+          "price": "180 / 230",
+          "description": "",
+          "veg": true
+        }
+      ]
+    },
+    {
+      "name": "Soups",
+      "description": "Zuppe - Served with focaccia bread",
+      "items": [
+        {
+          "name": "Minestrone Soup",
+          "price": "120 / 200",
+          "description": "A wholesome soup of seasonal vegetables topped with parmesan cheese",
+          "veg": true
+        },
+        {
+          "name": "Tomato Soup",
+          "price": "120 / 200",
+          "description": "Thick and tangy soup made with fresh tomatoes, basil and cream",
+          "veg": true
+        },
+        {
+          "name": "Chicken Soup",
+          "price": "150 / 250",
+          "description": "Comfort hot broth of chicken cooked in celery, leeks and onion stock",
+          "veg": false
+        },
+        {
+          "name": "Seafood Soup",
+          "price": "500",
+          "description": "Tomato based soup with seafood and fish simmered in a flavourful broth with rocket leaves",
+          "veg": false
+        }
+      ]
+    },
+    {
+      "name": "Salads",
+      "description": "Insalate - Served with focaccia bread",
+      "items": [
+        {
+          "name": "Watermelon Feta Salad",
+          "price": "350",
+          "description": "Chilled chunky watermelon, crumbled feta, fragrant organic basil and olive oil",
+          "veg": true
+        },
+        {
+          "name": "Greek Salad",
+          "price": "400",
+          "description": "Cucumber, tomatoes, red onions, capsicums, black olives and feta with oregano dressing",
+          "veg": true
+        },
+        {
+          "name": "Caesar Salad",
+          "price": "400",
+          "description": "Green salad, croutons, chicken, parmesan cheese and garlic",
+          "veg": false
+        },
+        {
+          "name": "Vegetable Salad",
+          "price": "240 / 350",
+          "description": "Fresh, crisp seasonal raw and cooked veggies, beans with Italian dressing",
+          "veg": true
+        },
+        {
+          "name": "Chicken Salad",
+          "price": "400",
+          "description": "Oven roasted chicken served on a bed of fresh vegetables and homemade dressing",
+          "veg": false
+        }
+      ]
+    },
+    {
+      "name": "Pasta",
+      "description": "Paste - You can also add chicken to any vegetarian pasta - extra ₹100",
+      "subcategories": [
+        {
+          "name": "Vegetarian",
+          "items": [
+            {
+              "name": "Aglio e Olio",
+              "price": "330",
+              "description": "Spaghetti tossed in garlic, olive oil, chilli flakes and parsley",
+              "veg": true
+            },
+            {
+              "name": "Arrabbiata",
+              "price": "330",
+              "description": "Penne pasta with spicy homemade basil, chilli and tomato sauce",
+              "veg": true
+            },
+            {
+              "name": "Pesto",
+              "price": "400",
+              "description": "Spaghetti with organic basil, garlic, olive oil and cashew paste, parmesan",
+              "veg": true
+            },
+            {
+              "name": "Pomodoro",
+              "price": "330",
+              "description": "Classic sauce with farm fresh tomatoes, basil topped with parmesan cheese",
+              "veg": true
+            },
+            {
+              "name": "Creamy Mushroom Pasta",
+              "price": "450",
+              "description": "Mushrooms sauteed with garlic in a white cream sauce, parsley garnish",
+              "veg": true
+            },
+            {
+              "name": "Mediterranean",
+              "price": "400",
+              "description": "Zucchini, black olives, tomatoes, onions, capers and garlic with fresh basil",
+              "veg": true
+            },
+            {
+              "name": "Ravioli",
+              "price": "450",
+              "description": "Spinach and ricotta or basil and ricotta, butter sage or tomato basil sauce",
+              "veg": true
+            },
+            {
+              "name": "Veg Lasagna",
+              "price": "450",
+              "description": "Layers of home made pasta sheet, baked with cheese and tomato basil sauce",
+              "veg": true
+            }
+          ]
+        },
+        {
+          "name": "Non-Vegetarian",
+          "items": [
+            {
+              "name": "Amatriciana",
+              "price": "590",
+              "description": "Bacon, onion and tomato sauce topped with parmesan cheese",
+              "veg": false
+            },
+            {
+              "name": "Chicken and Mushroom Pasta",
+              "price": "590",
+              "description": "Chicken and mushrooms in a white cream sauce with parsley",
+              "veg": false
+            },
+            {
+              "name": "Shrimp",
+              "price": "590",
+              "description": "Spaghetti with shrimps tossed in garlic, parsley, olive oil and tomato concasse",
+              "veg": false
+            },
+            {
+              "name": "Seafood",
+              "price": "590",
+              "description": "Spaghetti with the day's catch, garlic, parsley, olive oil and tomato concasse",
+              "veg": false
+            },
+            {
+              "name": "Chicken Bolognese",
+              "price": "500",
+              "description": "Minced chicken sauteed with onions and tomato sauce, parmesan",
+              "veg": false
+            },
+            {
+              "name": "Carbonara",
+              "price": "590",
+              "description": "Bacon and egg sauteed with onions in olive oil topped with parmesan",
+              "veg": false
+            },
+            {
+              "name": "Masala Chicken Lasagna",
+              "price": "590",
+              "description": "Layers of home made pasta sheet, baked with masala chicken, cheese and tomato basil sauce",
+              "veg": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chicken",
+      "description": "Pollo - Both served with salad and chips",
+      "items": [
+        {
+          "name": "Chicken Fingers",
+          "price": "500",
+          "description": "Lightly breaded and crispy golden fried chicken tenders",
+          "veg": false
+        },
+        {
+          "name": "Chicken Scallopina with Mushrooms",
+          "price": "550",
+          "description": "Pan fried chicken steak with a creamy mushroom sauce",
+          "veg": false
+        },
+        {
+          "name": "Chicken Escalope",
+          "price": "500",
+          "description": "Bread crumbed light batter fried chicken breast",
+          "veg": false
+        },
+        {
+          "name": "Roast Chicken",
+          "price": "500",
+          "description": "Tender quarter piece of chicken roasted with rosemary and olive oil",
+          "veg": false
+        },
+        {
+          "name": "Chicken Steak",
+          "price": "500",
+          "description": "Pan fried with rosemary",
+          "veg": false
+        }
+      ]
+    },
+    {
+      "name": "Seafood",
+      "description": "Frutti di Mare",
+      "items": [
+        {
+          "name": "Fish Fingers",
+          "price": "690",
+          "description": "Lightly breaded golden fried fish strips",
+          "veg": false
+        },
+        {
+          "name": "Grilled Fish",
+          "price": "690",
+          "description": "Boneless fish grilled in olive oil and garlic, parsley and lemon",
+          "veg": false
+        },
+        {
+          "name": "Fried Calamari",
+          "price": "690",
+          "description": "Tender squid rings in a light crisp batter with lemon",
+          "veg": false
+        },
+        {
+          "name": "Fish Escalope",
+          "price": "690",
+          "description": "Bread crumbed, batter fried fish filet",
+          "veg": false
+        },
+        {
+          "name": "Fritto Misto",
+          "price": "690",
+          "description": "Flour coated deep fried calamari, prawns and fish with special sauce",
+          "veg": false
+        }
+      ]
+    },
+    {
+      "name": "La Pizza",
+      "description": "Pizze - Regular 9IN / Large 12IN",
+      "subcategories": [
+        {
+          "name": "Vegetarian",
+          "items": [
+            {
+              "name": "Focaccia",
+              "price": "170 / 250",
+              "description": "Oregano, olive oil, rosemary and salt",
+              "veg": true
+            },
+            {
+              "name": "Margherita",
+              "price": "350 / 400",
+              "description": "Tomato sauce, cheese",
+              "veg": true
+            },
+            {
+              "name": "Marinara",
+              "price": "220 / 300",
+              "description": "Tomato sauce, olive oil, garlic & tomato",
+              "veg": true
+            },
+            {
+              "name": "Snow White",
+              "price": "420 / 500",
+              "description": "Only cheese",
+              "veg": true
+            },
+            {
+              "name": "Classic",
+              "price": "420 / 500",
+              "description": "Tomato sauce, cheese, basil, olives",
+              "veg": true
+            },
+            {
+              "name": "Italian",
+              "price": "450 / 550",
+              "description": "Tomato sauce, cheese, rucola, fresh tomato and ricotta",
+              "veg": true
+            },
+            {
+              "name": "Earth",
+              "price": "420 / 500",
+              "description": "Tomato sauce, cheese, fresh tomato, zucchini, mushroom and olive",
+              "veg": true
+            },
+            {
+              "name": "Funghi",
+              "price": "420 / 500",
+              "description": "Tomato sauce, cheese and mushrooms",
+              "veg": true
+            },
+            {
+              "name": "Greca",
+              "price": "450 / 550",
+              "description": "Tomato sauce, fresh tomato, cheese, feta and olive",
+              "veg": true
+            },
+            {
+              "name": "Spinach Feta",
+              "price": "450 / 550",
+              "description": "Tomato sauce, cheese, spinach, feta and olive",
+              "veg": true
+            },
+            {
+              "name": "Mediterranean",
+              "price": "420 / 500",
+              "description": "Tomato sauce, cheese, basil, fresh tomato, onion, olives, capers",
+              "veg": true
+            },
+            {
+              "name": "Romana",
+              "price": "420 / 500",
+              "description": "Tomato sauce, cheese, oregano, olives and capers",
+              "veg": true
+            },
+            {
+              "name": "Spicy",
+              "price": "450 / 550",
+              "description": "Tomato sauce, cheese, paneer, mushrooms, jalapenos, onions and garlic",
+              "veg": true
+            },
+            {
+              "name": "Sweety",
+              "price": "450 / 550",
+              "description": "Tomato sauce, cheese, gorgonzola and apple",
+              "veg": true
+            },
+            {
+              "name": "Vegetarian",
+              "price": "420 / 500",
+              "description": "Tomato sauce, cheese, garlic, zucchini, aubergine, capsicum and onion",
+              "veg": true
+            },
+            {
+              "name": "Verdura",
+              "price": "450 / 550",
+              "description": "Tomato sauce, cheese, capsicum, onion, spinach, broccoli and ricotta",
+              "veg": true
+            },
+            {
+              "name": "Etnea",
+              "price": "450 / 550",
+              "description": "Tomato sauce, cheese, jalapeno, ricotta cheese and capers",
+              "veg": true
+            },
+            {
+              "name": "4 Formaggi",
+              "price": "490 / 650",
+              "description": "Tomato sauce, feta, buffalo mozzarella, gorgonzola, mozzarella",
+              "veg": true
+            },
+            {
+              "name": "Pisana",
+              "price": "420 / 500",
+              "description": "Tomato sauce, cheese, aubergine and grated parmaceno cheese",
+              "veg": true
+            }
+          ]
+        },
+        {
+          "name": "Non-Vegetarian",
+          "items": [
+            {
+              "name": "Chicken Salami",
+              "price": "490 / 650",
+              "description": "Tomato sauce, cheese, mushroom, chicken salami",
+              "veg": false
+            },
+            {
+              "name": "Pork Salami",
+              "price": "490 / 650",
+              "description": "Tomato sauce, cheese, mushroom, pork salami",
+              "veg": false
+            },
+            {
+              "name": "Pork Four Ways",
+              "price": "490 / 650",
+              "description": "Tomato sauce, cheese, ham, bacon, pepperoni, salami",
+              "veg": false
+            },
+            {
+              "name": "Hawaii",
+              "price": "490 / 650",
+              "description": "Tomato sauce, cheese, ham and pineapple",
+              "veg": false
+            },
+            {
+              "name": "Masala Chicken",
+              "price": "490 / 650",
+              "description": "Tomato sauce, cheese, spicy masala chicken, capsicum and onion",
+              "veg": false
+            },
+            {
+              "name": "Fantasy",
+              "price": "490 / 690",
+              "description": "Tomato sauce, cheese, fresh tomato, zucchini, shrimps and garlic",
+              "veg": false
+            },
+            {
+              "name": "Regina",
+              "price": "490 / 650",
+              "description": "Tomato sauce, cheese, ham, mushrooms",
+              "veg": false
+            },
+            {
+              "name": "Pepperoni",
+              "price": "490 / 650",
+              "description": "Tomato sauce, cheese, pepperoni",
+              "veg": false
+            },
+            {
+              "name": "Seabreeze",
+              "price": "490 / 690",
+              "description": "Tomato sauce, cheese, shrimps, rucola",
+              "veg": false
+            },
+            {
+              "name": "Sea Global",
+              "price": "490 / 690",
+              "description": "Tomato sauce, cheese, squids, fish, shrimps, garlic and parsley",
+              "veg": false
+            },
+            {
+              "name": "Special",
+              "price": "490 / 650",
+              "description": "Tomato sauce, cheese, fish and onion",
+              "veg": false
+            },
+            {
+              "name": "Normandy",
+              "price": "490 / 650",
+              "description": "Cheese, apple, bacon, garlic and sage",
+              "veg": false
+            }
+          ]
+        },
+        {
+          "name": "Extra Toppings",
+          "items": [
+            {
+              "name": "Basil - Jalapenos - Veggies - Rucola",
+              "price": "50",
+              "description": "Fresh finishing touches from the garden",
+              "veg": true
+            },
+            {
+              "name": "Olive - Capers - Mushrooms",
+              "price": "90 / 140",
+              "description": "Briny and earthy additions",
+              "veg": true
+            },
+            {
+              "name": "Mozzarella - Gorgonzola",
+              "price": "200 / 250",
+              "description": "Extra cheese, generously scattered",
+              "veg": true
+            },
+            {
+              "name": "Chicken - Pepperoni - Bacon",
+              "price": "200 / 250",
+              "description": "Wood-fired protein additions",
+              "veg": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Desserts",
+      "description": "Dolci",
+      "items": [
+        {
+          "name": "Caramel Custard",
+          "price": "200",
+          "description": "Succulent pudding with a layer of soft caramel on top",
+          "veg": true
+        },
+        {
+          "name": "Chocolate Mousse",
+          "price": "200",
+          "description": "Creamy mousse that will melt in your mouth",
+          "veg": true
+        },
+        {
+          "name": "Panna Cotta",
+          "price": "200",
+          "description": "Thickened sweet cream with seasonal fruit topping",
+          "veg": true
+        },
+        {
+          "name": "Chocolate Cake",
+          "price": "200",
+          "description": "Rich firm pure chocolate cake with orange zest, served warm",
+          "veg": true
+        },
+        {
+          "name": "Tiramisu",
+          "price": "270",
+          "description": "Mascarpone custard layered with cream and coffee-soaked biscuit cake",
+          "veg": true
+        }
+      ]
+    },
+    {
+      "name": "Beverages",
+      "description": "Bevande",
+      "items": [
+        {
+          "name": "Iced Tea",
+          "price": "120 / 240",
+          "description": "",
+          "veg": true
+        },
+        {
+          "name": "Lemon Juice",
+          "price": "70",
+          "description": "",
+          "veg": true
+        },
+        {
+          "name": "Water Melon / Pineapple Juice",
+          "price": "140",
+          "description": "Pure juice with no water, no sugar added",
+          "veg": true
+        },
+        {
+          "name": "Carrot Apple Juice",
+          "price": "200",
+          "description": "Pure juice with no water, no sugar added",
+          "veg": true
+        },
+        {
+          "name": "Coke / Sprite / Lemon Soda",
+          "price": "100",
+          "description": "",
+          "veg": true
+        },
+        {
+          "name": "Soda",
+          "price": "80",
+          "description": "",
+          "veg": true
+        }
+      ]
+    }
+  ]
+}
